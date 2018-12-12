@@ -62,8 +62,3 @@
 
 
         <div id="page">
-
-
-            https://softuni.bg/downloads/svn/soft-tech/Sept-2018/PHP/01. PHP-Basic-Syntax/Lab/XAMPP-Installation-Guide-and-Debugger.docx
-            https://softuni.bg/downloads/svn/php-web-dev/Sept-2018/PHP-MVC-Frameworks/01. PHP-MVC-Frameworks-MVC-Introduction/lab/01.%20PHP-MVC-Frameworks-MVC-Introduction-Exercise.docx
-            https://softuni.bg/downloads/svn/php-web-dev/Sept-2018/PHP-MVC-Frameworks/01.%20PHP-MVC-Frameworks-MVC-Introduction/01.%20PHP-MVC-Frameworks-MVC-Introduction.pptx
