@@ -3,12 +3,19 @@
     $intB = readline();
 
     $result = 0;
-    while( $intA == 0 ) {
+    $strNember = '';
+
+    while( $intA != 0 ) {
         if( $intA % 2 == $intB ) {
             $result++;
         }
 
-        $intA /= 2;
+        $strNember .= $intA % 2;
+        $intA =  floor( $intA / 2 );
+
     }
 
+    $strNember = strrev ( $strNember );
+
+    echo $strNember . PHP_EOL;
     echo $result;
