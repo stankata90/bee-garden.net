@@ -13,3 +13,4 @@
     $strNember = strrev ( $strNember );
     echo $strNember . PHP_EOL;
     echo $result;
+    echo "by stankata";
