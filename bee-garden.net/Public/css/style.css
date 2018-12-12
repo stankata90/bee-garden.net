@@ -1,0 +1,481 @@
+html
+{
+    font-size: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #595959;
+}
+body
+{
+    margin: 0 auto;
+}
+hr
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(204, 204, 204, 0), rgba(204, 204, 204, 1), rgba(204, 204, 204, 0));
+}
+a
+{
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover
+{
+    color: red;
+}
+
+input[type=text],
+input[type=url],
+input[type=number],
+input[type=email],
+input[type=password],
+input[type=date]
+{
+    border: 1px solid #cccccc;
+    padding: 5px;
+    background: #fff;
+    width: 200px;
+}
+input[type=date] {
+    width: 202px;
+    padding: 4px;
+}
+input[type=submit],
+input[type=reset] {
+    border: 1px solid #cccccc;
+    padding: 4px;
+    background: #fff;
+    text-align: center;
+}
+select {
+    border: 1px solid #cccccc;
+    padding: 4px;
+    background: #fff;
+    width: 212px;
+}
+.markerRed
+{
+    color: red;
+    font-weight: bold;
+}
+.clear
+{
+    clear: left;
+}
+.contentWidth
+{
+    display: block;
+    width: 900px;
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+.info
+{
+    color: #4e779c;
+    border-color: #75899c;
+    background: #dff0f7 url('../img/info.png')  no-repeat 10px center;
+}
+.success
+{
+    color: #4F8A10;
+    border-color: #6c8a4d;
+    background: #e9f2da url('../img/success.png')  no-repeat 10px center;
+}
+.warning
+{
+    color: #9F6000;
+    border-color: #9e7e4f;
+    background: #fcf5d7 url('../img/warning.png')  no-repeat 10px center;
+}
+.error
+{
+    color: #D8000C;
+    border-color: #d96c72;
+    background: #ffdede url('../img/error.png')  no-repeat 10px center;
+}
+.validation
+{
+    color: #D63301;
+    border-color: #d6ada1;
+    background: #fff4f0 url('../img/validation.png') no-repeat 10px center;
+}
+.info,
+.success,
+.warning,
+.error,
+.validation
+{
+    border: 1px solid;
+    margin: 20px 10px 10px 10px;
+    padding: 15px 10px 15px 50px;
+}
+
+::placeholder
+{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #cccccc;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder
+{ /* Internet Explorer 10-11 */
+    color: #cccccc;
+}
+
+::-ms-input-placeholder
+{ /* Microsoft Edge */
+    color: #cccccc;
+}
+
+#header
+{
+    margin: 0;
+    padding: 0;
+}
+#header  h2
+{
+    font-size: 30px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+#header .topWellcome
+{
+    margin-bottom: 5px;
+}
+#header .barry
+{
+    display: block;
+    margin-top: -65px;
+    margin-right: 20px;
+    height: 80px;
+    width: 120px;
+    background: url("../img/barry.gif") no-repeat;
+    background-size: 100%;
+    float: left;
+}
+#header .topNav
+{
+    margin: 5px auto;
+    text-align: center;
+}
+#header .topNav a
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.1em ;
+}
+#header .topNav a img
+{
+    width: 14px;
+}
+#page {
+    /*display: block;*/
+    /*border: 1px solid;*/
+    margin-bottom: 50px;
+}
+
+#pBox,
+#pGuest,
+#pProfile,
+#pApiary,
+#pHive,
+#pAuthorization,
+#pLists
+{
+    padding: 10px 0 10px 0;
+}
+
+#leftWarp,
+#centerWarp,
+#rightWarp
+{
+    margin: 0 20px 0 20px;
+}
+#leftWarp
+{
+    float: left;
+    clear: bottom;
+}
+#leftWarp fieldset,
+#centerWarp fieldset,
+#rightWarp fieldset
+{
+    border: 0 solid #cccccc;
+    border-top-width: 1px;
+}
+#leftWarp legend,
+#centerWarp legend,
+#rightWarp legend
+{
+    text-align: center;
+    padding: 0.2em 0.5em;
+    font-weight: bold;
+}
+
+#leftWarp ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+#leftWarp fieldset ul li
+{
+    margin: 20px 5px 10px 5px;
+}
+#leftWarp fieldset ul li a{
+    font-size: 1.1em ;
+}
+#leftWarp fieldset ul li a img {
+    width: 14px;
+}
+
+
+#login table,
+#register table,
+#apiaryNew table,
+#apiaryEdit table,
+#hiveNew table,
+#myProfileView table,
+#myProfileEdit table,
+#myLists .listForm
+{
+    margin: 0 auto;
+}
+
+#login table td,
+#register table td,
+#apiaryNew table td,
+#apiaryEdit table td,
+#hiveNew table td,
+#myProfileEdit table td,
+#myProfileView table td,
+#myLists .listForm td
+{
+    padding: 10px 5px 10px 5px;
+}
+
+
+#myLists .listForm {
+    width: 90%;
+}
+#myLists .listForm tr td{
+    vertical-align: top;
+}
+#myLists .listForm tr td:first-child {
+    width: 80px;
+}
+#myLists .listForm tr:last-child td:last-child {
+    text-align: center;
+}
+#myLists .listForm tr td textarea{
+    width: calc( 100% - 10px );
+    width: -moz-calc(100% - 10px);
+    width: -webkit-calc(100% - 10px);
+    width: -o-calc(100% - 10px);
+    height: 200px;
+}
+
+
+#myLists .listList {
+    border-collapse: collapse;
+    width: 100%;
+}
+#myLists .listList td,
+#myLists .listList th
+{
+    border-bottom: 1px solid #cccccc;
+    padding: 4px;
+    text-align: left;
+    font-size: small;
+}
+#myLists .listList th:nth-child(6n) {
+    width: 60px;
+}
+#myLists .listList td:nth-child(6n) {
+    text-align: center;
+}
+#myLists .listList td:nth-child(6n) img {
+    width: 16px;
+}
+#apiaryList table
+{
+    border-collapse: collapse;
+}
+#apiaryList table tr
+{
+}
+#apiaryList table td,
+#apiaryList table th
+{
+    border-bottom: 1px solid #cccccc;
+    padding: 4px;
+    text-align: left;
+    font-size: small;
+}
+#apiaryList table {
+    width: 100%;
+}
+#apiaryList table th:nth-child(5n)
+{
+    width: 60px;
+}
+#apiaryList table td:nth-child(5n)
+{
+    text-align: center;
+}
+#apiaryList table td:nth-child(5n) a
+{
+    margin: 5px;
+}
+
+#apiaryNew table
+{
+    width: 70%;
+}
+
+#apiaryNew table tr td:first-child
+{
+    width: 30%;
+    text-align: right;
+}
+#apiaryNew table input[type=text]
+{
+    width: calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: -webkit-calc(100% - 20px);
+    width: -o-calc(100% - 20px);
+}
+
+#hiveNew table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+#hiveNew table tr th {
+    height: 30px;
+}
+#hiveNew table tr td {
+    border: 1px solid #cccccc;
+}
+#hiveNew table tr td:first-child,
+#hiveNew table tr td:nth-child( 3n)
+{
+    width: 18%;
+    text-align: right;
+}
+#hiveNew table tr td:nth-child( 2n),
+#hiveNew table tr td:nth-child( 4n) {
+    text-align: left;
+}
+
+#hiveNew table tr td#pluginTd #plugin  {
+    display: block;
+    width: 100%;
+    /*height: 175px;*/
+    height: 219px;
+    text-align: left;
+    vertical-align: top;
+    overflow: hidden scroll;
+    text-overflow: revert;
+}
+#hiveNew table tr td.pluginname {
+    text-align: center;
+}
+#hiveNew table tr td textarea {
+    display: block;
+    width: calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: -webkit-calc(100% - 20px);
+    width: -o-calc(100% - 20px);
+    height: 200px;
+    margin: 5px;
+}
+
+#hiveNew table tr#hiveList td {
+    text-align: left;
+}
+#hiveNew table tr#hiveList td label {
+    display: inline-block;
+    margin: 5px;
+    color: brown;
+    font-weight: bold;
+    line-height: 14px;
+}
+#hiveNew table tr#hiveList td label:hover
+{
+    color: red;
+}
+#hiveNew table tr#hiveList td label input {
+    margin: 3px;
+    float: inherit;
+    clear: inherit;
+}
+
+
+#myProfileEdit table td.label
+{
+    font-weight: bold;
+    text-align: right;
+    width: 100px;
+}
+#myProfileEdit table td.avatar
+{
+    text-align: center;
+    vertical-align: center;
+}
+#myProfileEdit table td.avatar img
+{
+    object-fit: cover;
+    display: block;
+    margin: 0px auto;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #75899c;
+    border-radius: 50%;
+}
+
+#myProfileView table
+{
+    width: 100%;
+}
+#myProfileView table td
+{
+    text-align: center;
+    width: 33%;
+}
+#myProfileView table td h1
+{
+    text-align: center;
+}
+#myProfileView table td.avatar
+{
+    text-align: center;
+    vertical-align: center;
+}
+#myProfileView table td.avatar img
+{
+    object-fit: cover;
+    display: block;
+    margin: 0px auto;
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgba(27, 27, 27, 0.56);
+    border-radius: 50%;
+}
+
+#footer
+{
+    position: fixed;
+    width: 100%;
+    height: 32px;
+    bottom: 0;
+    text-align: center;
+    background-color: white;
+}
+#footer .footerWarp
+{
+    margin: 8px auto;
+}
