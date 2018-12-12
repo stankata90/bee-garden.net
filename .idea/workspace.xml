@@ -179,13 +179,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="PHP Console" value="2" />
-          <entry key="php" value="356" />
+          <entry key="php" value="375" />
           <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="358" />
+          <entry key="PHP" value="377" />
           <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
@@ -200,7 +200,7 @@
         <entry file="file://$PROJECT_DIR$/debug.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -300,7 +300,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="80" />
     <option name="y" value="77" />
     <option name="width" value="1078" />
@@ -468,7 +468,7 @@
       <workItem from="1544379322214" duration="529000" />
       <workItem from="1544604864266" duration="1608000" />
       <workItem from="1544608628671" duration="292000" />
-      <workItem from="1544629913258" duration="1936000" />
+      <workItem from="1544629913258" duration="2686000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1544608522878</created>
@@ -481,10 +481,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="395187000" />
+    <option name="totallyTimeSpent" value="395937000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.53056514" visible="true" weight="0.1407767" />
@@ -877,7 +877,7 @@
     <entry file="file://$PROJECT_DIR$/debug.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
         </state>
       </provider>
     </entry>
