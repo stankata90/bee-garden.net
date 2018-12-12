@@ -10,7 +10,6 @@
         <link rel="stylesheet" type="text/css" href="/public/css/style.css" media="screen" />
         <link rel="stylesheet" type="text/css" href="/public/css/font.css" media="screen" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
     </head>
 
     <body>

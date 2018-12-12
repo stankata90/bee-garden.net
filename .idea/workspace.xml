@@ -160,11 +160,11 @@
     <session id="-216594553">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -179,12 +179,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="18" />
+          <entry key="php" value="19" />
+          <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="18" />
+          <entry key="PHP" value="19" />
+          <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
     </session>
@@ -215,8 +217,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Layout/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -257,6 +259,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="stankata90" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -354,6 +361,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -361,26 +369,10 @@
               <item name="bee-garden.net" type="b2602c69:ProjectViewProjectNode" />
               <item name="bee-garden.net" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bee-garden.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bee-garden.net" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bee-garden.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bee-garden.net" type="462c0819:PsiDirectoryNode" />
-              <item name="Engines" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bee-garden.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bee-garden.net" type="462c0819:PsiDirectoryNode" />
-              <item name="Layout" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -504,18 +496,28 @@
       <workItem from="1544191328632" duration="1317000" />
       <workItem from="1544259710047" duration="1365000" />
       <workItem from="1544379322214" duration="529000" />
-      <workItem from="1544604864266" duration="1485000" />
+      <workItem from="1544604864266" duration="1608000" />
+      <workItem from="1544608628671" duration="292000" />
+      <workItem from="1544629913258" duration="10000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1544608522878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544608522878</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="392836000" />
+    <option name="totallyTimeSpent" value="393261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53056514" visible="true" weight="0.20873787" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53056514" visible="true" weight="0.1407767" />
       <window_info id="Structure" order="1" sideWeight="0.46943483" side_tool="true" weight="0.22411004" />
       <window_info id="Favorites" order="2" sideWeight="0.5011521" side_tool="true" weight="0.21763754" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -532,6 +534,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32949308" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32922733" />
+      <window_info anchor="bottom" id="Messages" order="14" visible="true" weight="0.32949308" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -566,6 +569,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Include/functions/my_strlen.php">
@@ -899,8 +906,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Layout/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
