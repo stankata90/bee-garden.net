@@ -22,4 +22,4 @@
     
     echo "by stankata";
 
-    echo 'aaa';
+    echo 'aaa';aa
